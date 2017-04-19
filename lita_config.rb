@@ -21,7 +21,7 @@ Lita.configure do |config|
   config.robot.adapter = :line
   config.adapters.line.channel_secret = ENV["LINE_CHANNEL_SECRET"]
   config.adapters.line.channel_token = ENV["LINE_CHANNEL_TOKEN"]
-  config.redis[:url] = ENV["REDISTOGO_URL"]
+  config.redis[:url] = ENV["REDIS_URL"]
   config.http.port = ENV["PORT"]
 
   ## Example: Set options for the chosen adapter.
