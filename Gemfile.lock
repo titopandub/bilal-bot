@@ -1,6 +1,6 @@
 GIT
   remote: git://github.com/titopandub/lita-quran.git
-  revision: 687c8905e2b1fe3f3ca9715057316c4a92d3a112
+  revision: 501c6bec8393e6785bb549c617aea0cf6e51e633
   specs:
     lita-quran (0.1.0)
       lita (>= 4.7)
